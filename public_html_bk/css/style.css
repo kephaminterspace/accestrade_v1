@@ -1,0 +1,862 @@
+/*MAIN*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: initial;
+    font-weight: initial;
+    overflow: paged-x;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+.content-sec{
+    padding: 35px 0;
+}
+
+/*HEADER*/
+.header-sec{
+    background: url(../images/head-img.png) no-repeat;
+    padding: 420px 0 40px;
+}
+.sanpham-img{
+    padding-top: 120px;
+}
+.sanpham-img img{
+    margin-left: 75px;
+}
+.main-title{
+    text-align: center;
+    padding-bottom: 35px;
+}
+.main-title h2{
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #c7184b;
+    line-height: 40px;
+    font-weight: bold;
+}
+.main-title h2 span{
+    width: 80%;
+    font-size: 30px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #636363;
+    line-height: 40px;
+    font-weight: bold;
+}
+.main-line{
+    width: 60%;
+    margin: 10px auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+/*ORDER FORM*/
+.form-order {
+    max-width: 360px;
+    box-shadow: 1px 4px 15px #878787;
+    -moz-box-shadow: 1px 4px 15px #878787;
+    -ms-box-shadow: 1px 4px 15px #878787;
+    -webkit-box-shadow: 1px 4px 15px #878787;
+    border-radius: 15px;
+}
+.form-order legend {
+    margin-bottom: 0;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    background: -webkit-linear-gradient(top, #059ec2, #059ec2);
+    background: -o-linear-gradient(top, #059ec2, #059ec2);
+    background: linear-gradient(to bottom, #059ec2, #059ec2);
+    line-height: 1.2em;
+}
+.form-order .content {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 0 0 15px 15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-order .content label {
+    font-weight: normal;
+    font-size: 16px;
+    color: #424242;
+}
+.form-order .content input {
+    background-color: #cccccc;
+    color: #000;
+    border-radius: 0;
+}
+.form-order .content .price {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    padding: 12px 20px 20px;
+}
+.form-order .content .price .info {
+    color: #636363;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 4px 0 8px;
+    font-weight: bold;
+}
+.form-order .content .price .text-price {
+    color: #636363;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form-order .content .price .text-price2{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.form-order .content .price .text-price2 span{
+    font-size: 26px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #b60f0e;
+}
+.js_submit {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    width: 100%;
+    padding: 6px 30px;
+    background: -webkit-linear-gradient(top, #059ec2, #07718a);
+    background: -o-linear-gradient(top, #059ec2, #07718a);
+    background: linear-gradient(to bottom, #059ec2, #07718a);
+    border: none;
+}
+.note {
+    color: #000000;
+    text-align: right;
+    font-size: 14px;
+    margin: 15px auto 0;
+    max-width: 360px;
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+/*TRIEU CHUNG*/
+.mota{
+    padding: 20px;
+    margin: 60px 0 35px;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #059ec2, #059ec2);
+    background: -o-linear-gradient(top, #059ec2, #059ec2);
+    background: linear-gradient(to bottom, #059ec2, #059ec2);
+}
+.mota h3{
+    color: #fff;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 33px;
+}
+.mota h3 span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.mota-chitiet{
+    margin-left: 17px;
+}
+.mota-chitiet ul li{
+    font-size: 17px;
+    margin: 6px 0;
+}
+.mota-readmore{
+    background: -webkit-linear-gradient(top, #6ae7ec, #42b9e1, #037894);
+    background: -o-linear-gradient(top, #6ae7ec, #42b9e1, #037894);
+    background: linear-gradient(to bottom, #6ae7ec, #42b9e1, #037894);
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: center;
+}
+.mota-readmore p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+}
+.mota-readmore p span {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+/*DOI TUONG*/
+.doituong-sec{
+    text-align: center;
+}
+
+.detail-content-col{
+    margin: 0 auto;
+    width: 222px;
+}
+.detail-content-col h3{
+    color: #0b1a4b;
+    text-transform: uppercase;
+}
+.detail-content-col p{
+    text-align: justify;
+    padding-top: 10px;
+}
+.btn-tuvan{
+    margin-top: 50px;
+}
+
+/*GIOI THIEU*/
+.gioithieu-sec{
+    background: url(../images/gtcover-img.png) no-repeat;
+    padding: 160px 0 200px;
+    position: relative;
+}
+.sosanh{
+    width: 255px;
+    margin: 0 auto;
+}
+.sosanh-left{
+    text-align: right;
+}
+.sosanh-first{
+    padding: 50px 0 145px;
+    margin-left: 85px;
+}
+.sosanh-second{
+    padding: 20px 0 155px;
+    margin-right: 50px;
+}
+.sosanh-third{
+    padding: 90px 0 0;
+    margin-left: 125px;
+}
+.sosanh-fourth{
+    padding: 50px 0 0;
+    margin-right: 60px;
+}
+.sosanh h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sosanh-chitiet{
+    color: #c7184b;
+}
+
+
+/*Y KIEN KHACH HANG*/
+.ykien-row{
+    padding: 50px 0;
+}
+.ykien-khachhang{
+    width: 300px;
+    text-align: justify;
+    position: relative;
+}
+.ykien-khachhang p{
+    padding-top: 35px;
+}
+.ykien-khachhang p:before{
+    background: url(../images/sign-img.png) no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -27px;
+    right: 0;
+}
+.ykien-khachhang h5{
+    background: -webkit-linear-gradient(top, #5acdd2, #42b9e1, #059ec2);
+    background: -o-linear-gradient(top, #5acdd2, #42b9e1, #059ec2);
+    background: linear-gradient(to bottom, #5acdd2, #42b9e1, #059ec2);
+    padding: 10px 30px;
+    color: #fff;
+    text-align: center;
+}
+
+/*GIAI PHAP*/
+.giaiphap-sec{
+    background: url(../images/gp-cover-img.png) no-repeat;
+    padding: 330px 0 0;
+    text-align: center;
+}
+.giaiphap-chitiet{
+    text-align: center;
+    color: #fff;
+}
+.giaiphap-chitiet h3{
+    line-height: 35px;
+    margin: 0;
+}
+.giaiphap-chitiet h4{
+    font-size: 24px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 10px auto 45px;
+    width: 350px;
+}
+.giaiphap-chitiet .js_submit{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*FOOTER*/
+.footer-sec{
+    background: url(../images/footer-img.png) no-repeat;
+    padding: 0px;
+}
+.chungnhan-img{
+    text-align: center;
+}
+.text-note{
+    text-align: left;
+    color: #fff;
+}
+.footer-sec .order-form-col{
+    padding-top: 188px;
+}
+.footer-sec .sanpham-img img{
+    padding-top: 160px;
+}
+
+.footer-sec .form-order legend{
+    background: -webkit-linear-gradient(top, #e88b10, #f18f0f, #b76903);
+    background: -o-linear-gradient(top, #e88b10, #f18f0f, #b76903);
+    background: linear-gradient(to bottom, #e88b10, #f18f0f, #b76903);
+}
+.hot-line{
+    margin-top: 20px;
+    text-align: center;
+}
+.hot-line span{
+    color: #636363;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.order-form-col{
+    color: #fff;
+}
+.form-title h2{
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.footer-more-info{
+    padding: 0 0 20px;
+}
+.footer-more-info h5{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-more-info img{
+    padding: 15px 0;
+}
+.footer-more-info p{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.family-img img{
+    margin-top: 608px;
+}
+
+
+/*PORTRAIT TABLET*/
+@media only screen and (max-width: 959px) and (min-width: 768px){
+    #iframe {
+        height: 992px;
+    }
+
+    #iframe_2 {
+        height: 1970px;
+    }
+
+    *{
+        overflow: paged-x !important;
+    }
+    .form-order{
+        margin: 0 auto !important;
+    }
+    .order-form-col{
+        padding-top: 20px !important;
+    }
+    .header-sec{
+        background-size: contain !important;
+        padding-top: 207px !important;
+    }
+    .sanpham-img{
+        padding-top: 40px !important;
+    }
+    .sanpham-img img {
+        margin: 0 auto !important;
+    }
+    .detail-content-col{
+        padding-bottom: 60px !important;
+    }
+    .btn-tuvan {
+        padding-top: 0 !important;
+    }
+    .giaiphap-sec{
+        padding: 170px 0 0 !important;
+        background-size: contain !important;
+    }
+    .gioithieu-sec{
+        background-size: contain !important;
+        padding: 20px 0 240px !important;
+    }
+    .main-title h2{
+        width: 100% !important;
+    }
+    .footer-sec {
+        background-size: cover !important;
+    }
+    .footer-sec .sanpham-img img {
+        padding-top: 0 !important;
+    }
+    .text-note{
+        text-align: center !important;
+    }
+    .footer-sec .form-title h2{
+        color: #262626 !important;
+        text-align: center !important;
+    }
+    .footer-sec .order-form-col{
+        color: #fff !important;
+        text-align: center !important;
+    }
+    .family-img{
+        text-align: center !important;
+    }
+    .family-img img{
+        margin-top: 50px !important;
+    }
+}
+@media (min-width: 1200px){
+    #iframe {
+        height: 992px;
+    }
+
+    #iframe_2 {
+        height: 1970px;
+    }
+}
+
+/*LANDSCAPE TABLET*/
+@media only screen  and (min-width: 868px) and (max-width: 1200px)  {
+
+    *{
+        overflow: paged-x !important;
+    }
+    .header-sec{
+        background-size: contain !important;
+        padding-top: 220px !important;
+    }
+    .form-order .content .price .info{
+        font-size: 12px !important;
+    }
+    .form-order legend{
+        font-size: 22px !important;
+    }
+    .js_submit{
+        font-size: 20px !important;
+    }
+    .sanpham-img1{
+        padding-top: 70px !important;
+    }
+    .sanpham-img img {
+        margin: 0 auto !important;
+    }
+    .sosanh{
+        display: none !important;
+    }
+    .detail-content-col{
+        padding-bottom: 60px !important;
+    }
+    .btn-tuvan {
+        padding-top: 0 !important;
+    }
+    .gioithieu-sec{
+        background-size: cover !important;
+        padding: 40px 0 348px !important;
+    }
+    .giaiphap-sec{
+        padding: 210px 0 0 !important;
+        background-size: contain !important;
+    }
+    .footer-sec {
+        background-size: cover !important;
+    }
+    .footer-sec .sanpham-img img {
+        padding-top: 0 !important;
+    }
+    .footer-sec .order-form-col {
+        padding-top: 90px !important;
+    }
+    .form-title h2{
+        font-size: 25px !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+
+@media only screen  and (min-width: 1201px) and (max-width: 1366px)  {
+
+    #iframe {
+        height: 992px;
+    }
+
+    #iframe_2 {
+        height: 1970px;
+    }
+
+
+    *{
+        overflow: paged-x !important;
+    }
+    .header-sec{
+        background-size: contain !important;
+        padding-top: 290px !important;
+    }
+    .js_submit{
+        font-size: 20px !important;
+    }
+    .sanpham-img1{
+        padding-top: 95px !important;
+    }
+    .sanpham-img img {
+        margin: 0 auto !important;
+    }
+    .sosanh-first {
+        padding: 0 !important;
+        margin-left: 140px !important;
+    }
+    .sosanh-second {
+        padding: 0 0 60px !important;;
+        margin-right: 135px !important;;
+    }
+    .family-img img {
+        margin-top: 525px !important;
+    }
+    .sosanh-third {
+        padding: 50px 0 0 !important;;
+        margin-left: 170px !important;;
+    }
+    .sosanh-fourth {
+        padding: 25px 0 0 !important;;
+        margin-right: 140px !important;;
+    }
+    .detail-content-col{
+        padding-bottom: 60px !important;
+    }
+    .btn-tuvan {
+        padding-top: 0 !important;
+    }
+    .gioithieu-sec{
+        background-size: cover !important;
+        padding: 100px 0 120px !important;
+    }
+    .giaiphap-sec{
+        padding: 270px 0 0 !important;
+        background-size: contain !important;
+    }
+    .footer-sec {
+        background-size: cover !important;
+    }
+    .footer-sec .sanpham-img img {
+        padding-top: 0 !important;
+    }
+    .footer-sec .order-form-col {
+        padding-top: 111px !important;
+    }
+}
+
+
+@media only screen  and (min-width: 1367px) and (max-width: 1600px)  {
+
+    #iframe {
+        height: 992px;
+    }
+
+    #iframe_2 {
+        height: 1970px;
+    }
+
+
+    *{
+        overflow: paged-x !important;
+    }
+    .header-sec{
+        background-size: contain !important;
+        padding-top: 340px !important;
+    }
+    .js_submit{
+        font-size: 20px !important;
+    }
+    .sanpham-img1{
+        padding-top: 95px !important;
+    }
+    .sanpham-img img {
+        margin: 0 auto !important;
+    }
+    .family-img img {
+        margin-top: 525px !important;
+    }
+    .sosanh-first {
+        padding: 0 !important;
+        margin-left: 111px !important;
+    }
+    .sosanh-second {
+        padding: 0 0 60px !important;
+        margin-right: 109px !important;
+    }
+    .sosanh-third {
+        padding: 100px 0 0 !important;
+        margin-left: 147px !important;
+    }
+    .sosanh-fourth {
+        padding: 85px 0 0 !important;
+        margin-right: 115px !important;
+    }
+    .detail-content-col{
+        padding-bottom: 60px !important;
+    }
+    .btn-tuvan {
+        padding-top: 0 !important;
+    }
+    .gioithieu-sec{
+        background-size: cover !important;
+        padding: 135px 0 155px !important;
+    }
+    .giaiphap-sec{
+        padding: 315px 0 0 !important;
+        background-size: contain !important;
+    }
+    .footer-sec {
+        background-size: cover !important;
+    }
+    .footer-sec .sanpham-img img {
+        padding-top: 0 !important;
+    }
+    .footer-sec .order-form-col {
+        padding-top: 111px !important;
+    }
+}
+
+
+/*PORTRAIT PHONE*/
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+
+    #iframe {
+        height: 870px;
+    }
+
+    #iframe_2 {
+        height: 1715px;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+
+    #iframe {
+        height: 857px;
+    }
+
+    #iframe_2 {
+        height: 1675px;
+    }
+}
+
+
+/*PORTRAIT PHONE*/
+@media only screen and (max-width: 479px) {
+    *{
+        overflow: paged-x !important;
+    }
+    .header-sec{
+        background-size: contain !important;
+        padding-top: 111px !important;
+    }
+    .form-order{
+        margin: 0 auto !important;
+    }
+    .order-form-col{
+        padding-top: 12px !important;
+    }
+    .giaiphap-sec{
+        padding: 100px 0 0 !important;
+        background-size: contain !important;
+    }
+    .sanpham-img{
+        padding-top: 40px !important;
+    }
+    .sanpham-img img {
+        margin: 0 auto !important;
+    }
+    .detail-content-col{
+        padding-bottom: 60px !important;
+    }
+    .btn-tuvan {
+        padding-top: 0 !important;
+    }
+    .gioithieu-sec{
+        background-size: contain !important;
+        padding: 190px 0 0 !important;
+    }
+    .feedback-sec{
+        text-align: center !important;
+    }
+    .ykien-khachhang{
+        width: 90% !important;
+        margin: 15px auto 0 !important;
+    }
+    .form-order legend{
+        font-size: 22px !important;
+    }
+    .form-order .content .price .info{
+        font-size: 12px !important;
+    }
+    .js_submit{
+        font-size: 20px !important;
+    }
+    .form-order{
+        max-width: 333px !important;
+    }
+    .main-title h2{
+        width: 90% !important;
+        font-size: 25px !important;
+    }
+    .main-title h2 span{
+        width: 90% !important;
+        font-size: 25px !important;
+    }
+    .footer-sec {
+        background-size: cover !important;
+    }
+    .text-note{
+        text-align: center !important;
+    }
+    .footer-sec .form-title h2{
+        color: rgba(53, 51, 51, 0.8) !important;
+        text-align: center !important;
+    }
+    .footer-sec .order-form-col{
+        color: #fff !important;
+        text-align: center !important;
+    }
+    .family-img{
+        text-align: center !important;
+    }
+    .family-img img{
+        margin-top: 0px !important;
+    }
+}
+
+
+/*LANDSCAPE PHONE*/
+@media only screen  and (min-width: 480px) and  (max-width: 767px)  {
+    *{
+        overflow: paged-x !important;
+    }
+    .header-sec{
+        background-size: contain !important;
+        padding-top: 111px !important;
+    }
+    .form-order{
+        margin: 0 auto !important;
+    }
+    .order-form-col{
+        padding-top: 108px !important;
+    }
+    .giaiphap-sec{
+        padding: 160px 0 0 !important;
+        background-size: contain !important;
+    }
+    .sanpham-img{
+        padding-top: 40px !important;
+    }
+    .sanpham-img img {
+        margin: 0 auto !important;
+    }
+    .detail-content-col{
+        padding-bottom: 60px !important;
+    }
+    .btn-tuvan {
+        padding-top: 0 !important;
+    }
+    .gioithieu-sec{
+        background-size: cover !important;
+        padding: 30px 0 210px !important;
+    }
+    .feedback-sec{
+        text-align: center !important;
+    }
+    .ykien-khachhang{
+        width: 90% !important;
+        margin: 15px auto 0 !important;
+    }
+    .form-order legend{
+        font-size: 22px !important;
+    }
+    .form-order .content .price .info{
+        font-size: 12px !important;
+    }
+    .js_submit{
+        font-size: 20px !important;
+    }
+    .form-order{
+        max-width: 333px !important;
+    }
+    .main-title h2{
+        width: 90% !important;
+        font-size: 25px !important;
+    }
+    .main-title h2 span{
+        width: 90% !important;
+        font-size: 25px !important;
+    }
+    .footer-sec {
+        background-size: cover !important;
+    }
+    .text-note{
+        text-align: center !important;
+    }
+    .footer-sec .form-title h2{
+        color: rgba(53, 51, 51, 0.8) !important;
+        text-align: center !important;
+    }
+    .footer-sec .order-form-col{
+        color: #fff !important;
+        text-align: center !important;
+        padding-top: 30px !important;
+    }
+    .family-img{
+        text-align: center !important;
+    }
+    .family-img img{
+        margin-top: 0px !important;
+    }
+}
